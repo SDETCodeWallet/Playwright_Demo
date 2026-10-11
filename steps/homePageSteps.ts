@@ -13,6 +13,7 @@ let loginPage= new LoginPage();
 let signup= new signUp();
 
 Given('When I launch the application', async function () {
+   await page.screenshot({path: "test.png"})
    await page.locator("//p[text()='Consent']").click();
 });
 
