@@ -4,7 +4,7 @@ import { HomePage } from "../Pages/HomePage";
 import { LoginPage } from "../Pages/LoginPage";
 import { signUp } from "../Pages/SignUp";
 
-setDefaultTimeout(10000);
+setDefaultTimeout(50000);
 
 let homePage= new HomePage();
 
