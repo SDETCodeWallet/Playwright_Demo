@@ -8,7 +8,7 @@ let context: BrowserContext
 setDefaultTimeout(10000);
 
 Before(async function(){
-    browser =  await chromium.launch({headless: false})
+    browser =  await chromium.launch({headless: true})
     context= await browser.newContext();
     page= await context.newPage(); 
     await page.goto("https://www.automationexercise.com/");
