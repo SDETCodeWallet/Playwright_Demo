@@ -25,13 +25,9 @@
    "requireModule": ["tsx/cjs"],
    "format": [
 
-     "progress-bar",
+     "html:playwright-report/cucumber-report.html",
 
-     "summary",
-
-     "html:cucumber-report.html",
-
-     "json:cucumber-report.json"
+     "json:playwright-report//cucumber-report.json"
 
    ]
 
